@@ -8,7 +8,7 @@ function botAnswer(message) {
   switch (true) {
     case message.charAt(message.length - 1) === '?':
       return 'Ouais Ouais...';
-    case message === message.toUpperCase():
+    case message === message.toUpperCase() && message !== '':
       return 'Pwa, calme-toi...';
     case /Fortnite/.test(message):
       return "on s'fait une partie soum-soum ?";

@@ -165,7 +165,8 @@ select {
     border-radius: 2rem;
     padding: .3em .8em;
     text-align: left;
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    min-height: 2rem; }
   .acne-bot-container .bot {
     background: #aaa;
     color: white;
