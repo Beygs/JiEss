@@ -10,6 +10,13 @@
 
 Petits script JS codés lors du jour 38 de THP
 
+## Live Site
+
+[Demo Link](https://priceless-leakey-de0c2e.netlify.app/)
+
+[![Homepage Screenshot](./assets/homepage.png)](https://priceless-leakey-de0c2e.netlify.app/)
+[![Homepage Screenshot](./assets/bot.png)](https://priceless-leakey-de0c2e.netlify.app/)
+
 ## ToDo
 
 - [x] Script 1
@@ -18,7 +25,7 @@ Petits script JS codés lors du jour 38 de THP
 - [x] Script 4
 - [x] Script 5
 - [x] Script 6
-- [ ] Script 7
+- [x] Script 7
  
 ## Crédits et remerciements
 
