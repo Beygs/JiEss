@@ -57,6 +57,24 @@ ul {
   flex-wrap: wrap;
   justify-content: center; }
 
+select {
+  font-size: .8rem;
+  font-family: inherit;
+  padding: 0.8em 1.2em;
+  border-radius: 2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  outline: none; }
+  select:active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none; }
+  select option {
+    font-size: .8rem;
+    font-family: inherit; }
+
 .mario-bg {
   width: 100%;
   height: 100%;
@@ -66,5 +84,51 @@ ul {
   margin: 0;
   line-height: 90%;
   color: #297045; }
+
+.accordion input {
+  width: 7.5rem; }
+.accordion .question {
+  position: relative;
+  cursor: pointer; }
+  .accordion .question::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: -1em;
+    transform: translateY(-50%); }
+.accordion .answer {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  color: #297045; }
+.accordion .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .4em 0; }
+  .accordion .container--delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .4em 0; }
+    .accordion .container--delete button {
+      font-size: .7rem;
+      padding: .8em 1.2em;
+      width: fit-content;
+      border-radius: 2rem;
+      border: 2px solid #ff1f0a;
+      background-color: white;
+      color: #ff1f0a;
+      cursor: pointer; }
+      .accordion .container--delete button:hover {
+        background-color: #ff1f0a;
+        color: white; }
+  .accordion .container ul {
+    flex-direction: column; }
+  .accordion .container.active .question::before {
+    content: '-'; }
+  .accordion .container.active .answer {
+    height: auto;
+    margin-top: .5rem; }
 
 /*# sourceMappingURL=main.css.map */

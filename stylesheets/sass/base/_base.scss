@@ -68,3 +68,26 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+select {
+  font-size: .8rem;
+  font-family: inherit;
+  padding: 0.8em 1.2em;
+  border-radius: 2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  outline: none;
+
+  &:active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
+  }
+
+  option {
+    font-size: .8rem;
+    font-family: inherit;
+  }
+}

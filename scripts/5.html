@@ -7,5 +7,46 @@
     <link rel="stylesheet" href="../stylesheets/css/main.css" />
     <title>Script 5</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Inventaire</h1>
+
+    <div class="accordion">
+      <div class="container">
+        <p class="question">Tous les livres ont-ils été empruntés au moins une fois ?</p>
+        <p class="answer" id='borrow'></p>
+      </div>
+      <div class="container">
+        <p class="question">Quel est le livre le plus emprunté ?</p>
+        <p class="answer" id='mostBorrowed'></p>
+      </div>
+      <div class="container">
+        <p class="question">Quel est le livre le moins emprunté ?</p>
+        <p class="answer" id='lessBorrowed'></p>
+      </div>
+      <div class="container">
+        <p class="question">Quel livre à l'ID ?</p>
+        <div class="answer">
+          <input type="text" id="findId" value='873495'>
+          <p id="findBookAt"></p>
+        </div>
+      </div>
+      <div class="container">
+        <p class="question">Supprimer le livre à l'ID</p>
+        <div class="answer">
+          <div class="container--delete">
+            <input type="text" id="deleteId" value='133712'>
+            <button id='deleteIdBtn'>Supprimer le livre</button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <p class="question">Montrer les livres par ordre alphabétique</p>
+        <ul class="answer" id='alpha'></ul>
+      </div>
+    </div>
+
+    <a href="../index.html">Revenir à l'accueil</a>
+
+    <script src="js/script_5.js"></script>
+  </body>
 </html>
