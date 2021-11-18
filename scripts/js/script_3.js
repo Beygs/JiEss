@@ -37,5 +37,7 @@ input.addEventListener("input", () => {
     }
 
     pyramidDiv.setAttribute("style", `font-size: ${fontSize}`);
+  } else {
+    pyramidDiv.innerHTML = ''
   }
 });

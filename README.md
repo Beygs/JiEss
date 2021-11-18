@@ -9,6 +9,16 @@
 ## Aperçu
 
 Petits script JS codés lors du jour 38 de THP
+
+## ToDo
+
+- [x] Script 1
+- [x] Script 2
+- [x] Script 3
+- [x] Script 4
+- [ ] Script 5
+- [ ] Script 6
+- [ ] Script 7
  
 ## Crédits et remerciements
 

@@ -42,6 +42,21 @@ input {
   border: 1px solid #674e4c;
   font-size: inherit; }
 
+li {
+  margin: .5em 1em;
+  list-style: none;
+  transition: all .3s ease;
+  cursor: default; }
+  li:hover {
+    transform: scale(1.2); }
+
+ul {
+  margin: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
 .mario-bg {
   width: 100%;
   height: 100%;

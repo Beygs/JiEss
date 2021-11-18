@@ -49,3 +49,22 @@ input {
   border: 1px solid $liver;
   font-size: inherit;
 }
+
+li {
+  margin: .5em 1em;
+  list-style: none;
+  transition: all .3s ease;
+  cursor: default;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+ul {
+  margin: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
