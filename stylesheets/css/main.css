@@ -135,4 +135,46 @@ select {
     height: auto;
     margin-top: .5rem; }
 
+.acne-bot-container {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  height: 70vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden; }
+  .acne-bot-container .submit-btn {
+    font-size: .7rem;
+    padding: .8em 1.2em;
+    width: fit-content;
+    border-radius: 2rem;
+    border: 2px solid #297045;
+    background-color: white;
+    color: #297045;
+    cursor: pointer; }
+    .acne-bot-container .submit-btn:hover {
+      background-color: #297045;
+      color: white; }
+  .acne-bot-container .user {
+    background: #c0d37e;
+    color: white;
+    width: 50%;
+    position: relative;
+    left: 45%;
+    border-radius: 2rem;
+    padding: .3em .8em;
+    text-align: left;
+    margin-bottom: .5em; }
+  .acne-bot-container .bot {
+    background: #aaa;
+    color: white;
+    width: 50%;
+    position: relative;
+    left: 5%;
+    border-radius: 2rem;
+    padding: .3em .8em;
+    text-align: left;
+    margin-bottom: .5em; }
+
 /*# sourceMappingURL=main.css.map */
